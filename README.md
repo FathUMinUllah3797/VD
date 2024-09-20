@@ -4,13 +4,13 @@ This repository contains the implementation of the Dual Deep Learning Network fo
 
 ## Overview
 
-The code is structured to extract features from video frames using two deep learning architectures: LightFlowNet for optical flow features and a CNN for spatial features. The extracted features are then used to train a model for detecting abnormal actions in video sequences.
+The code is structured to extract features from video frames using two deep learning architectures: LightFlowNet for optical flow features and a CNN for spatial features. The extracted features are then used to train the model for detecting abnormal actions in video sequences.
 
 ![image](https://github.com/user-attachments/assets/7d641685-3a9b-4f57-a1a3-13c8b2138ed1)
 
 ## Datasets
 
-The following datasets are used in this project:
+The following datasets are used in this article:
 
 [RWF-2000](https://ieeexplore.ieee.org/abstract/document/9412502): A dataset containing various video sequences for action detection.
 
@@ -25,7 +25,7 @@ The following datasets are used in this project:
 ### FeatureExtraction.py
 
 
-This script is responsible for extracting features from video frames using the LightFlowNet architecture for optical flow features and a CNN for spatial features. The extracted features are saved in the /Features directory.
+This script is responsible for extracting spatial features from video frames. The extracted features are saved in the /Features directory.
 
 #### Note 
 
