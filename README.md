@@ -6,7 +6,8 @@ This repository contains the implementation of the Dual Deep Learning Network fo
 
 The code is structured to extract features from video frames using two deep learning architectures: LightFlowNet for optical flow features and a CNN for spatial features. The extracted features are then used to train the model for detecting abnormal actions in video sequences.
 
-![image](https://github.com/user-attachments/assets/7d641685-3a9b-4f57-a1a3-13c8b2138ed1)
+![image](https://github.com/user-attachments/assets/f9cedd6f-da8a-45c8-87a4-da4a9b959458)
+
 
 ## Datasets
 
